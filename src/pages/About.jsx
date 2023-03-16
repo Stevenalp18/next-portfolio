@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function About(){
     return(
         <section className="w-screen bg-no-repeat bg-center bg-cover w-screen h-auto bg-starry-sky bg-top p-12 sm:p-14">
