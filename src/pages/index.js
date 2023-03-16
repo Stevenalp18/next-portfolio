@@ -2,9 +2,48 @@ import Head from 'next/head'
 import Header from './Header'
 import About from './About'
 import Projects from './Projects'
-import data from 'src/pages/data.js'
+import ProjectsCard from './ProjectsCard'
 
 export default function Home() {
+  const data = [
+    {
+        key: 1,
+        projectName: "Personal Website Portfolio",
+        projectImage: "https://github.com/Stevenalp18/web-dev-images/blob/main/Next-portfolio/Next-Portfolio.jpg?raw=true",
+        description: "I made this as my personal website with React, Tailwind, NextJs to showcase my other projects. I used local props to make these showcase components.",
+        techUsed: "React, Astro, and Tailwind",
+        link: "stevenalp.com"
+    }, 
+    {
+        key: 2,
+        projectName: "Travel Journey",
+        projectImage: "https://github.com/Stevenalp18/web-dev-images/blob/main/Next-portfolio/Travel-journey.jpg?raw=true",
+        description: "A brief summarized description of the nicer places I have been to, the highlights as some may say. I used React, Vite, and Tailwind, it was my first Project with Tailwind CSS.",
+        techUsed: "React, Vite, Tailwind",
+        link: "https://travel-journey-stevenalp18.netlify.app/"
+    }, 
+    {
+        key: 3,
+        projectName: "About Me",
+        projectImage: "https://github.com/Stevenalp18/web-dev-images/blob/main/Next-portfolio/About-me-card.jpg?raw=true",
+        description: "My first project ever built with React and Vite. I made a brief summary about myself, introducing who I am and what I like. A predecessor to my current portfolio.",
+        techUsed: "React, Vite",
+        link: "https://about-me-stevenalp18.netlify.app/"
+    }
+  ]
+  const dataMap = data.map(x => {
+      return(
+        <ProjectsCard
+        key={x.key}
+        projectName={x.projectName}
+        projectImage={x.projectImage}
+        description={x.description}
+        techUsed={x.description}
+        link={x.link}
+        />
+      )
+    })
+
   return (
     <>
       <Head>
@@ -15,17 +54,9 @@ export default function Home() {
       </Head>
       <Header />
       <About />
-      <Projects />
+      <Projects 
+        projectsCard={dataMap}
+      />
     </>
   )
 }
-
-
-// const project = data.map(item => {
-//   return (
-//     <Projects 
-//       key={item.key}
-//       description={item.description}
-//     />
-//   )
-// })

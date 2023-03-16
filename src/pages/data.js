@@ -3,7 +3,7 @@ const data = [
         key: 1,
         projectName: "Personal Website Portfolio",
         projectImage: "",
-        description: "I made this as my personal website with React, Tailwind, Astro to showcase my other projects. I used props to make these showcase components.",
+        description: "I made this as my personal website with React, Tailwind, NextJs to showcase my other projects. I used local props to make these showcase components. I will be updating this occasionally to implement new feautures in the long run.",
         techUsed: "React, Astro, and Tailwind",
         link: "stevenalp.com"
     }, 
@@ -24,13 +24,3 @@ const data = [
         link: "https://about-me-stevenalp18.netlify.app/"
     }
 ]
-
-// Data.js Modeling sample
-// {
-//     key: ''
-//     projectName: "",
-//     description: "",
-//     techUsed: "",
-//     link: ""
-// }
-// Keys start at 1 
