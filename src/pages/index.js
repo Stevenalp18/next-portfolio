@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Header from './Header'
-import About from './About'
-import Projects from './Projects'
-import ProjectsCard from './ProjectsCard'
+import Header from '../components/Header'
+import About from '../components/About'
+import Projects from '../components/Projects'
+import ProjectsCard from '../components/ProjectsCard'
 
 /* eslint-disable @next/next/no-img-element */
 
