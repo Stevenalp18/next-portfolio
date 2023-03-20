@@ -12,10 +12,10 @@ export default function About(){
                 alt="portfolio"
                 width={300}
                 />
-                <div className="" /* Text Box */>
+                <div className="" >
                     <p className="text-white font-sono text-center text-lg sm:text-left sm:text-2xl">Hi, I am Steven Perez. I am the proud owner, designer, web developer of this website and the projects below.
                      I have always loved learning to code ever since I begin learning RobotC in school, went to learn some Python, and eventually was really attracted to Javascript, 
-                     it's amazing DOM manipulation and the rest of the skills that come with it. Check out the rest of my projects, I am always working on something new to improve my skillset and learn more.
+                     it&apos;s amazing DOM manipulation and the rest of the skills that come with it. Check out the rest of my projects, I am always working on something new to improve my skillset and learn more.
                     </p>
                 </div>
             </div>
