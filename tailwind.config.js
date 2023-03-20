@@ -15,9 +15,6 @@ module.exports = {
       alegreya: ['Alegreya Sans'],
       sono: ['Sono']
     },
-    backgroundImage: {
-      'starry-sky': "",
-    }
   },
 },
   plugins: [],
