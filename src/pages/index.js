@@ -4,13 +4,15 @@ import About from './About'
 import Projects from './Projects'
 import ProjectsCard from './ProjectsCard'
 
+/* eslint-disable @next/next/no-img-element */
+
 export default function Home() {
   const data = [
     {
         key: 1,
         projectName: "Personal Website Portfolio",
         projectImage: "https://github.com/Stevenalp18/web-dev-images/blob/main/Next-portfolio/Next-Portfolio.jpg?raw=true",
-        alt="Personal Website Portfolio",
+        alt:"Personal Website Portfolio",
         description: "I made this as my personal website with React, Tailwind, NextJs to showcase my other projects. I used local props to make these showcase components.",
         techUsed: "React, Astro, and Tailwind",
         link: "stevenalp.com"
