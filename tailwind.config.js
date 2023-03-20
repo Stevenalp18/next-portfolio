@@ -16,9 +16,7 @@ module.exports = {
       sono: ['Sono']
     },
     backgroundImage: {
-      'lake': "url('https://raw.githubusercontent.com/Stevenalp18/web-dev-images/main/Next-portfolio/lake-night.avif')",
-      'starry-sky': "url('https://raw.githubusercontent.com/Stevenalp18/web-dev-images/main/Next-portfolio/starry-night.avif')",
-      'dark-night': "url('https://github.com/Stevenalp18/web-dev-images/blob/main/dark-night.jpeg?raw=true')"
+      'starry-sky': "",
     }
   },
 },
