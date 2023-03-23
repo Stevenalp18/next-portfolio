@@ -5,7 +5,7 @@ export default function Navbar() {
             <div className='text-3xl font-shantell'>
                 Steven Perez
             </div>
-            <ol className="flex gap-6 hidden sm:flex font-sono">
+            <ol className="flex gap-6 hidden sm:flex font-shantell text-lg">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#" >Projects</a></li>

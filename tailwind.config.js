@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-      shantell: ['Shantell sans'],
+      shantell: ['Shantell Sans'],
       alegreya: ['Alegreya Sans'],
       sono: ['Sono']
     },
