@@ -6,11 +6,11 @@ export default function Footer(){
             <section>
                 <Contact />
             </section>
-            <ul className="my-10 text-white flex gap-10 justify-around font-shantell sm:gap-0 sm:p-10 sm:text-xl">
+            {/* <ul className="my-10 text-white flex gap-10 justify-around font-shantell sm:gap-0 sm:p-10 sm:text-xl">
                 <li className="bg-slate-500/50 py-2 px-4 sm:py-4 sm:px-6 rounded"><a href="">About</a></li>
                 <li className="bg-slate-500/50 py-2 px-4 sm:py-4 sm:px-6 rounded"><a href="">Projects</a></li>
                 <li className="bg-slate-500/50 py-2 px-4 sm:py-4 sm:px-6 rounded"><a href="">Contact</a></li>
-            </ul>
+            </ul> */}
         </footer>
     )
 }
