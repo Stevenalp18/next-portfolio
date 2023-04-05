@@ -2,7 +2,7 @@
 export default function Contact(){
     return(
         <section className="bg-[url('/starry-night.jpg')] m-auto p-10 bg-no-repeat bg-center bg-cover w-screen h-auto">
-            <h2 className="text-white text-4xl text-center pb-10 font-semi-bold hidden sm:block font-shantell" id="contact">Contact Us</h2>
+            <h2 className="text-white text-4xl text-center pb-10 font-semi-bold hidden sm:block font-shantell" id="contact-us">Contact Us</h2>
             <div className="bg-slate-500/20 sm:flex text-white bg-opacity-30 border-2 border-slate-500/20 rounded-2xl sm:p-1 p-4 max-w-3xl m-auto gap-2">
                 <div className="sm:w-1/3 sm:block bg-blue-300/50 rounded-2xl p-2 hidden">
                     <div className="text-left w-full px-2">
@@ -55,7 +55,8 @@ export default function Contact(){
                             Name
                             <input 
                             type="text" 
-                            className="py-1 px-2 text-black w-full rounded-md mb-2 bg-gray-100/80 font-alegreya"/>
+                            className="py-1 px-2 text-black w-full rounded-md mb-2 bg-gray-100/80 font-alegreya"
+                            required/>
                         </label>
                         <label 
                         className="w-full text-left text-sm font-alegreya">
@@ -63,7 +64,8 @@ export default function Contact(){
                             <input 
                             type="email" 
                             name="email" 
-                            className="py-1 px-2 text-black w-full rounded-md mb-2 bg-gray-100/80 font-alegreya"/>
+                            className="py-1 px-2 text-black w-full rounded-md mb-2 bg-gray-100/80 font-alegreya"
+                            required/>
                         </label>
                         <label 
                         className="w-full text-left text-sm font-alegreya">
@@ -71,7 +73,8 @@ export default function Contact(){
                             <input 
                             type="text"
                             name="phone" 
-                            className="py-1 px-2 text-black w-full rounded-md mb-2 bg-gray-100/80 font-alegreya"/>
+                            className="py-1 px-2 text-black w-full rounded-md mb-2 bg-gray-100/80 font-alegreya"
+                            required/>
                         </label>
                         <label 
                         className="w-full text-left text-sm font-alegreya">
@@ -79,7 +82,8 @@ export default function Contact(){
                         <textarea 
                         type="textarea" 
                         rows={4} name="message" 
-                        className="w-full rounded-md py-1 px-2 text-black bg-gray-100/80 font-alegreya"></textarea>
+                        className="w-full rounded-md py-1 px-2 text-black bg-gray-100/80 font-alegreya"
+                        required></textarea>
                     </label>
                     <div className="flex align-center">
                     <button type="submit" className="bg-slate-500/80 p-2 rounded-3xl mt-4 w-6/12 mx-auto font-bold text-lg font-shantell">Submit</button>

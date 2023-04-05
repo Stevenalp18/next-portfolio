@@ -9,7 +9,7 @@ export default function Navbar() {
                 <li><a href="#home-page">Home</a></li>
                 <li><a href="#about-me">About</a></li>
                 <li><a href="#projects" >Projects</a></li>
-                <li><a href="#contact" className="px-4 py-3 rounded-lg bg-slate-50/10">Contact</a></li>
+                <li><a href="#contact-us" className="px-4 py-3 rounded-lg bg-slate-50/10">Contact</a></li>
             </ol>
         </nav>
     )
