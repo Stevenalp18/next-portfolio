@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import About from '../components/About'
 import Projects from '../components/Projects'
 import ProjectsCard from '../components/ProjectsCard'
+import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 
 /* eslint-disable @next/next/no-img-element */
@@ -67,6 +68,7 @@ export default function Home() {
       <Projects 
         projectsCard={dataMap}
       />
+      <Contact />
       <Footer />
     </>
   )
